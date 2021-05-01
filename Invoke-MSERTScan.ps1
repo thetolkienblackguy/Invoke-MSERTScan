@@ -14,14 +14,14 @@ Sending an email with logs
 .\Invoke-MSERTScan.ps1 -Computers Exch01 -SendEmail -To "Test@test.com" -From "Automation@test.com" -SMTPServer "SomeSMTPRelay.com"
 
 .NOTES
-Author: gdelaney@phoenixhorizonsconsulting.com
+Author: Gabe Delaney
 Version: 1.0
 Date: 04/26/2021
 Name: Invoke-MSERTScan
 
 
 Version History:
-1.0 - Original Release - Gabe Delaney 
+1.0 - Original Release - https://github.com/thetolkienblackguy
 ###########################################################################################################################################>
 #Requires -RunAsAdministrator
 #Requires -Version 3.0
@@ -33,11 +33,11 @@ param (
     [Parameter(Mandatory=$false)] 
     [switch]$SendEmail,
     [Parameter(Mandatory=$false)]
-    [array]$To = "gdelaney@phoenixhorizonsconsulting.com",
+    [array]$To = "Test@test.com",
     [Parameter(Mandatory=$false)]
-    [array]$Cc = "gdelaney@phoenixhorizonsconsulting.com",
+    [array]$Cc = "test@test.com",
     [Parameter(Mandatory=$false)]
-    [string]$From = "Automation@phoenixhorizonsconsulting.com",
+    [string]$From = "Automation@test.com",
     [Parameter(Mandatory=$false)]
     [string]$Subject = "MSERT Logs $(Get-Date -Format MMddyyyy)",
     [Parameter(Mandatory=$false)]
