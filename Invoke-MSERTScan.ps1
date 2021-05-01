@@ -48,7 +48,7 @@ param (
 )
 <#
     This scriptblock variable will be passed to invoke-command to include all functions and paramters as well as leverage Invoke-Command's built in parrallel processing. 
-    There may be a more elegant way to do this but this is ultimately the way I settled on after writing a couple hundred lines of code and realizing I'll need leverage
+    There may be a more elegant way to do this but this is ultimately the way I settled on after writing a couple hundred lines of code and realizing I'll need
     both parrallel processing and remoting a bit too late. 
 
 #>
