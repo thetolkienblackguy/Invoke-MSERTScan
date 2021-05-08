@@ -12,7 +12,7 @@ This script automates the MSERT scan outlined in [ED21-02 Supplemental Direction
 ## Usage
 
 ```powershell
-#Downloads and execture MSERT.exe on all computers in the array
+#Downloads and executes MSERT.exe on all computers in the array
 .\Invoke-MSERTScan.ps1 -Computers @("Exch01","Exch02") 
 
 #Sends email with MSERT logs.  Each log is stamped with the hostname of the device the logs were run on.
