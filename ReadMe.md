@@ -26,3 +26,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Contact
+I'm an IT Consultant for the Federal Government and small businesses that specializes in M365, AD, and process automation. If you feel I can help you with a project please don't hesitate to reach out [PowerShellDev@PhzConsulting.com](PowerShellDev@PhzConsulting.com).  I'm always looking for new clients and challenges

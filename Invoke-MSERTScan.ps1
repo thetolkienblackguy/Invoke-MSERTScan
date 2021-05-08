@@ -15,6 +15,7 @@ Sending an email with logs
 
 .NOTES
 Author: Gabe Delaney
+Email: PowerShellDev@phzconsulting.com
 Version: 1.0
 Date: 04/26/2021
 Name: Invoke-MSERTScan
