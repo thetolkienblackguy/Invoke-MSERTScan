@@ -15,14 +15,13 @@ Sending an email with logs
 
 .NOTES
 Author: Gabe Delaney
-Email: PowerShellDev@phzconsulting.com
 Version: 1.0
 Date: 04/26/2021
 Name: Invoke-MSERTScan
 
 
 Version History:
-1.0 - Original Release - https://github.com/thetolkienblackguy
+1.0 - Original Release - Gabe Delaney
 ###########################################################################################################################################>
 #Requires -RunAsAdministrator
 #Requires -Version 3.0
